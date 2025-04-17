@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		713541FF2DB0BBB500333820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713541E92DB0BBB400333820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713541F02DB0BBB400333820;
+			remoteInfo = RelevantRadioReplica;
+		};
+		713542092DB0BBB500333820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713541E92DB0BBB400333820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713541F02DB0BBB400333820;
+			remoteInfo = RelevantRadioReplica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713541F12DB0BBB400333820 /* RelevantRadioReplica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelevantRadioReplica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713541FE2DB0BBB500333820 /* RelevantRadioReplicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelevantRadioReplicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713542082DB0BBB500333820 /* RelevantRadioReplicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelevantRadioReplicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		713541F32DB0BBB400333820 /* RelevantRadioReplica */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RelevantRadioReplica;
+			sourceTree = "<group>";
+		};
+		713542012DB0BBB500333820 /* RelevantRadioReplicaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RelevantRadioReplicaTests;
+			sourceTree = "<group>";
+		};
+		7135420B2DB0BBB500333820 /* RelevantRadioReplicaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RelevantRadioReplicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713541EE2DB0BBB400333820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713541FB2DB0BBB500333820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713542052DB0BBB500333820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713541E82DB0BBB400333820 = {
+			isa = PBXGroup;
+			children = (
+				713541F32DB0BBB400333820 /* RelevantRadioReplica */,
+				713542012DB0BBB500333820 /* RelevantRadioReplicaTests */,
+				7135420B2DB0BBB500333820 /* RelevantRadioReplicaUITests */,
+				713541F22DB0BBB400333820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713541F22DB0BBB400333820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713541F12DB0BBB400333820 /* RelevantRadioReplica.app */,
+				713541FE2DB0BBB500333820 /* RelevantRadioReplicaTests.xctest */,
+				713542082DB0BBB500333820 /* RelevantRadioReplicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713541F02DB0BBB400333820 /* RelevantRadioReplica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713542122DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplica" */;
+			buildPhases = (
+				713541ED2DB0BBB400333820 /* Sources */,
+				713541EE2DB0BBB400333820 /* Frameworks */,
+				713541EF2DB0BBB400333820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				713541F32DB0BBB400333820 /* RelevantRadioReplica */,
+			);
+			name = RelevantRadioReplica;
+			packageProductDependencies = (
+			);
+			productName = RelevantRadioReplica;
+			productReference = 713541F12DB0BBB400333820 /* RelevantRadioReplica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		713541FD2DB0BBB500333820 /* RelevantRadioReplicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713542152DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplicaTests" */;
+			buildPhases = (
+				713541FA2DB0BBB500333820 /* Sources */,
+				713541FB2DB0BBB500333820 /* Frameworks */,
+				713541FC2DB0BBB500333820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713542002DB0BBB500333820 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				713542012DB0BBB500333820 /* RelevantRadioReplicaTests */,
+			);
+			name = RelevantRadioReplicaTests;
+			packageProductDependencies = (
+			);
+			productName = RelevantRadioReplicaTests;
+			productReference = 713541FE2DB0BBB500333820 /* RelevantRadioReplicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		713542072DB0BBB500333820 /* RelevantRadioReplicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713542182DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplicaUITests" */;
+			buildPhases = (
+				713542042DB0BBB500333820 /* Sources */,
+				713542052DB0BBB500333820 /* Frameworks */,
+				713542062DB0BBB500333820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7135420A2DB0BBB500333820 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7135420B2DB0BBB500333820 /* RelevantRadioReplicaUITests */,
+			);
+			name = RelevantRadioReplicaUITests;
+			packageProductDependencies = (
+			);
+			productName = RelevantRadioReplicaUITests;
+			productReference = 713542082DB0BBB500333820 /* RelevantRadioReplicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713541E92DB0BBB400333820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					713541F02DB0BBB400333820 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					713541FD2DB0BBB500333820 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 713541F02DB0BBB400333820;
+					};
+					713542072DB0BBB500333820 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 713541F02DB0BBB400333820;
+					};
+				};
+			};
+			buildConfigurationList = 713541EC2DB0BBB400333820 /* Build configuration list for PBXProject "RelevantRadioReplica" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713541E82DB0BBB400333820;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 713541F22DB0BBB400333820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713541F02DB0BBB400333820 /* RelevantRadioReplica */,
+				713541FD2DB0BBB500333820 /* RelevantRadioReplicaTests */,
+				713542072DB0BBB500333820 /* RelevantRadioReplicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713541EF2DB0BBB400333820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713541FC2DB0BBB500333820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713542062DB0BBB500333820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713541ED2DB0BBB400333820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713541FA2DB0BBB500333820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713542042DB0BBB500333820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		713542002DB0BBB500333820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713541F02DB0BBB400333820 /* RelevantRadioReplica */;
+			targetProxy = 713541FF2DB0BBB500333820 /* PBXContainerItemProxy */;
+		};
+		7135420A2DB0BBB500333820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713541F02DB0BBB400333820 /* RelevantRadioReplica */;
+			targetProxy = 713542092DB0BBB500333820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		713542102DB0BBB500333820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713542112DB0BBB500333820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713542132DB0BBB500333820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		713542142DB0BBB500333820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		713542162DB0BBB500333820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelevantRadioReplica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RelevantRadioReplica";
+			};
+			name = Debug;
+		};
+		713542172DB0BBB500333820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelevantRadioReplica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RelevantRadioReplica";
+			};
+			name = Release;
+		};
+		713542192DB0BBB500333820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelevantRadioReplica;
+			};
+			name = Debug;
+		};
+		7135421A2DB0BBB500333820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmett.RelevantRadioReplicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelevantRadioReplica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713541EC2DB0BBB400333820 /* Build configuration list for PBXProject "RelevantRadioReplica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713542102DB0BBB500333820 /* Debug */,
+				713542112DB0BBB500333820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713542122DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713542132DB0BBB500333820 /* Debug */,
+				713542142DB0BBB500333820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713542152DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713542162DB0BBB500333820 /* Debug */,
+				713542172DB0BBB500333820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713542182DB0BBB500333820 /* Build configuration list for PBXNativeTarget "RelevantRadioReplicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713542192DB0BBB500333820 /* Debug */,
+				7135421A2DB0BBB500333820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 713541E92DB0BBB400333820 /* Project object */;
+}
